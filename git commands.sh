@@ -2,7 +2,7 @@
 git config --global user.name "Sohom Ghosh"
 git config --global user.email "sohom1ghosh@gmail.com"
 
-#Creating New repository
+#Cloning New repository
 git clone http://<link>.git
 cd <folder_name_cloned_from_git>
 touch README.md
@@ -11,7 +11,7 @@ git commit -m "add README"
 git push -u origin master
 
 
-#Create relevant project in github
+#Clone relevant project from github
 git clone <http://link_to_github_project.git>
 cd <name_of_git_folder>
 git status
@@ -24,6 +24,7 @@ git commit -m "comment add here"
 
 
 #Existing folder or Git repository
+#Create repository from github.com having link as http://<link>.git
 cd existing_folder
 git init
 git remote add origin http://<link>.git
