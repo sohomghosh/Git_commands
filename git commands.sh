@@ -51,3 +51,10 @@ git log
 #Reverting back to an old state
 git checkout -b old-state f176757hj68799hhkjga007270
 
+#Check out a new branch
+git checkout -b new_branch_name
+
+git checkout master
+git commit
+#If conflict open file and resolve it
+
